@@ -1,23 +1,28 @@
-## VOID MANAGEMENT
-![VOID MANAGEMENT - Headder](https://github.com/user-attachments/assets/f072c840-a267-4f5e-bbb4-51b798399e4e)
+# Void Management
+<a href="https://ali36saadat.github.io/repositories/void-management">
+  <img src="https://github.com/user-attachments/assets/83429eac-368e-48e2-a013-3bc70d9cdf0a" alt="header">
+</a>
 
+## Description
+Void Management is a backend project for task management, built with NestJS and TypeORM. It exposes CRUD APIs for working with tasks and connects to a PostgreSQL database. The project also includes Swagger API documentation, making it easier to inspect and try the available endpoints.
 
+## Usage
+**Requirements:** `nvm`, `node` and `yarn`
 
-## Installation
-**Requirements:** `nvm`, `node`
-
-1: nvm
-```node js
+1: Clone
+```bash
+git clone https://github.com/ali36saadat/void-management.git
+cd void-management
+```
+2: NVM
+```bash
 nvm use
 ```
-2: Install Dependencies
-```node js
+3: Install Dependencies
+```bash
 yarn install
 ```
-3: Compile and Run the project
-```node js
+4: Run
+```bash
 yarn run start
 ```
-
-> [!NOTE]
-> Package updates and dependency changes may cause some issues when getting the project up and running
